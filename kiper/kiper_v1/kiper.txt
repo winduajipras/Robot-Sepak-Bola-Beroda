@@ -1,0 +1,45 @@
+//kiper
+#define saka 13
+#define saki 11
+#define duaka 12
+#define duaki 10
+#define tika 8
+#define tiki 9
+#define enb 7
+#define mosaka 6
+#define mosaki 5
+#define moduaka 4
+#define moduaki 3
+#define pne 2
+
+void setup() {
+  // put your setup code here, to run once:
+pinMode(saka, OUTPUT);
+pinMode(saki, OUTPUT);
+pinMode(duaka, OUTPUT);
+pinMode(duaki, OUTPUT);
+pinMode(tika, OUTPUT);
+pinMode(tiki, OUTPUT);
+pinMode(enb, OUTPUT);
+pinMode(mosaka, OUTPUT);
+pinMode(mosaki, OUTPUT);
+pinMode(moduaka, OUTPUT);
+pinMode(moduaki, OUTPUT);
+pinMode(pne, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+//digitalWrite(enb, HIGH);  
+//digitalWrite(saka, LOW);
+//analogWrite(saki, 100);
+//digitalWrite(duaka, LOW);
+//analogWrite(duaki, 100);
+//digitalWrite(tika, LOW);
+//analogWrite(tiki, 100);
+//analogWrite(mosaka, 100);
+//digitalWrite(mosaki, LOW);
+//analogWrite(moduaka, LOW);
+//digitalWrite(moduaki, 100);
+digitalWrite(pne, HIGH);
+}
